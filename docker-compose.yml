@@ -1,0 +1,14 @@
+foo:
+  image: gcr.io/foo
+foo1:
+  image: gcr.io/foo1
+foo2:
+  image: gcr.io/foo2
+foo3:
+  image: gcr.io/foo3
+foo4:
+  image: gcr.io/foo4
+foo5:
+  image: gcr.io/foo5
+foo6:
+  image: gcr.io/foo6
