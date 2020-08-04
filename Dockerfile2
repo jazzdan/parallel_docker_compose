@@ -1,0 +1,8 @@
+FROM node:9-alpine
+WORKDIR /var/www/app
+ADD package.json .
+RUN npm install
+ADD . .
+RUN sleep 20 && echo "This is build 2"
+ENTRYPOINT sleep 1000
+
